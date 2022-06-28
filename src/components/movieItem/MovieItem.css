@@ -1,0 +1,26 @@
+.movie__item{
+    width: calc(20% - 10px);
+    background-color: #1B2530;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: scale(0.97);
+}
+
+.movie__item:hover{
+    transform: scale(1);
+}
+
+.movie__item img{
+    width: 100%;
+    aspect-ratio: 3/4;
+}
+
+.movie__item h1{
+    margin: 1rem 0 0 0.5rem;
+}
+
+@media(max-width: 764px){
+    .movie__item{
+        width: 100%;
+    }
+}

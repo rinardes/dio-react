@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #0F171E; 
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.layout{
+  margin: 16px;
+  width: 80%;
+  margin: auto;
+}

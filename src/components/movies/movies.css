@@ -1,0 +1,12 @@
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+@media(max-width: 764px){
+    .movies{
+        flex-direction: column;
+    }
+}
